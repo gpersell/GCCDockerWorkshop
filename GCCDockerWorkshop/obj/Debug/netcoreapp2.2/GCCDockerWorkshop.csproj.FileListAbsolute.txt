@@ -1,0 +1,4 @@
+C:\docker-workshop\dotnet-docker\samples\aspnetapp\aspnetapp\obj\Debug\netcoreapp2.2\GCCDockerWorkshop.csprojAssemblyReference.cache
+C:\docker-workshop\dotnet-docker\samples\aspnetapp\aspnetapp\obj\Debug\netcoreapp2.2\GCCDockerWorkshop.csproj.CoreCompileInputs.cache
+C:\docker-workshop\dotnet-docker\samples\aspnetapp\aspnetapp\obj\Debug\netcoreapp2.2\GCCDockerWorkshop.AssemblyInfoInputs.cache
+C:\docker-workshop\dotnet-docker\samples\aspnetapp\aspnetapp\obj\Debug\netcoreapp2.2\GCCDockerWorkshop.AssemblyInfo.cs
