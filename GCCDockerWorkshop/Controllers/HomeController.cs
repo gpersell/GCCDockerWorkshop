@@ -38,18 +38,18 @@ namespace GCCDockerWorkshop.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        // POST: Courses/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("OrderNumber,OrderTotal,OrderDate")] Order order)
+
+        public IActionResult Create([Bind("OrderNumber,OrderTotal,OrderDate")] Order order)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Add(order);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
             return View(order);
+
+            //if (ModelState.IsValid)
+            //{
+            //    _context.Add(order);
+            //    await _context.SaveChangesAsync();
+            //    return RedirectToAction(nameof(Index));
+            //}
+            //return View(order);
         }
     }
 }

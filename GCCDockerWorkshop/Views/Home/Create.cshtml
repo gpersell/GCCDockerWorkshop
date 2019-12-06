@@ -1,0 +1,39 @@
+@model GCCDockerWorkshop.Models.Order
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Create here</h1>
+</div>
+<h2>Create Order</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.OrderNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.OrderTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.OrderDate)
+            </td>
+        </tr>
+    </tbody>
+</table>
